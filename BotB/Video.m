@@ -30,9 +30,13 @@
         
         // Load the html into the webview
         [self loadHTMLString:html baseURL:nil];
+        self.delegate = self;
     }
+    
     return self;  
 }
+
+
 @end
 
 @implementation Video
@@ -45,7 +49,22 @@
     }
     return self;
 }
-
+/*
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    int app = 0;
+}
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    if(webView.loading) {
+        int app=0;
+    } else {
+        int app=0;
+    }
+}
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    
+    return YES;
+}
+*/
 -(void) startVideo {
 }
 -(void)back {
@@ -66,7 +85,12 @@
 
     YouTubeView *youtubeVideo = [[YouTubeView alloc] initWithStringAsURL:@"http://www.youtube.com/v/3frgULXnE7M?fs=1&amp:hl=en_GB" frame:CGRectMake(-2, -2, 324, 420)];
     [self.view addSubview:youtubeVideo];
+    youtubeVideo.delegate = self;
     // Do any additional setup after loading the view from its nib.
+    UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+    
+    self.navigationItem.titleView = label;  
+
 }
 
 - (void)viewDidUnload

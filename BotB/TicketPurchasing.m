@@ -15,7 +15,7 @@
 @end
 
 @implementation TicketPurchasing
-
+@synthesize titleLabel;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -38,6 +38,7 @@
     //[self.navigationItem setRightBarButtonItem:barButton animated:YES];
     self.navigationItem.leftBarButtonItem = barButton;
 
+    self.navigationItem.titleView = titleLabel;
 }
 - (void)viewDidAppear:(BOOL)animated {
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -61,24 +62,27 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
--(IBAction)buttonAction10:(id)sender {
+-(void) loadGame:(int)numTickets {
     self.navigationController.view.alpha = 0;
     //*game = nil;
     self.navigationController.navigationBar.hidden = YES;
-
+    
     Game *game = [[Game alloc] initWithNibName:@"Game" bundle:nil];
-
+    game.numT = numTickets;
     [self.navigationController pushViewController:game animated:YES];
-
+}
+-(IBAction)buttonAction10:(id)sender {
+    [self loadGame:1];
 }
 -(IBAction)buttonAction20:(id)sender {
-
+    [self loadGame:2];
 }
 -(IBAction)buttonAction30:(id)sender {
+    [self loadGame:5];
 }
 
 -(IBAction)buttonAction50:(id)sender {
-
+    [self loadGame:10];
 }
 
 @end

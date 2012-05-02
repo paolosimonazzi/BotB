@@ -35,8 +35,8 @@
 
 }
 - (void) createRightButton {
-    UIImage *img = [UIImage imageNamed:@"T&CsButtonUnpressed.png"];
-    UIImage *img2 = [UIImage imageNamed:@"T&CsButtonPressed.png"];
+    UIImage *img = [UIImage imageNamed: @"buttonT&Cs.png"];
+    UIImage *img2 = [UIImage imageNamed:@"buttonT&CsActive.png"];
     TCButton = [UIButton buttonWithType:UIButtonTypeCustom];
     TCButton.bounds = CGRectMake(0,0,img.size.width,img.size.height);
     [TCButton setBackgroundImage:img forState:UIControlStateNormal];
@@ -54,18 +54,12 @@
     self.navigationController.navigationBar.hidden = NO;
     //self.navigationController.
     //topItem.title = @"title text";
-    /*
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
-    label.backgroundColor = [UIColor clearColor];
-    label.font = [UIFont boldSystemFontOfSize:20.0];
-    //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
-    label.textAlignment = UITextAlignmentCenter;
-    label.textColor     = [UIColor darkGrayColor];
-    label.text          = @"           prova";  
-     */
-    UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo.png"]];
+
+    UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
 
     self.navigationItem.titleView = label;  
+    [self createRightButton];
+
 }
 - (void)viewDidAppear:(BOOL)animated {
     self.navigationController.view.alpha = 1;
@@ -74,13 +68,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self createRightButton];
-    videoScreen = [[Video alloc] initWithNibName:@"Video" bundle:nil];
 
     //videoScreen = [[Video alloc] initWithNibName:@"Video" bundle:nil]; 
     // Do any additional setup after loading the view from its nib.
 }
 -(IBAction)videoButton:(id)sender {
+    videoScreen = [[Video alloc] initWithNibName:@"Video" bundle:nil];
+
     [self.navigationController pushViewController:videoScreen animated:YES];
 }
 -(IBAction)gameButton:(id)sender {

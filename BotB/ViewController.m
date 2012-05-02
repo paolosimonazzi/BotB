@@ -18,11 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO (@"5.0")) {
-        UIImage *NavigationPortraitBackground = [UIImage imageNamed:@"NavBar"];                              //resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
-        [self.navigationBar setBackgroundImage:NavigationPortraitBackground 
-                                                      forBarMetrics:UIBarMetricsDefault];
-    }
 
     startScreen = [[StartScreen alloc] initWithNibName:@"StartScreen" bundle:nil];
     [self pushViewController:startScreen animated:NO];
@@ -35,6 +30,19 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+}
+- (void)viewWillAppear:(BOOL)animated {
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO (@"5.0")) {
+        UIImage *NavigationPortraitBackground = [UIImage imageNamed:@"navBar"];                              //resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+        [self.navigationBar setBackgroundImage:NavigationPortraitBackground 
+                                 forBarMetrics:UIBarMetricsDefault];
+    }
+    /*
+     UIImage *NavigationPortraitBackground = [UIImage imageNamed:@"navBar"];
+    [[UINavigationBar appearance] setBackgroundImage:NavigationPortraitBackground forBarMetrics:UIBarMetricsDefault];
+     */
+
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -18,4 +18,10 @@
 
 @property (nonatomic, retain) IBOutlet UIWebView   *webGame;
 @property (nonatomic, retain) IBOutlet UIActivityIndicatorView *spinner;
+@property (nonatomic) int numT;
+
+- (void) leaveTheGame;
+- (void) leaveTheGameWithoutMessage:(BOOL)val;
+
+
 @end

@@ -10,9 +10,9 @@
 #import "AppDelegate.h"
 
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
-
+int appStatus;
 @implementation Game
-@synthesize webGame, spinner;
+@synthesize webGame, spinner, numT;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,9 +22,9 @@
     }
     return self;
 }
-- (void) startGame {
+- (void) startGame:(int)numTickets {
     
-    NSString *urlAddress = @"http:////mobile.staging.botb.com//Integration//AppPlay.aspx?id=2ACF7D76-8EFB-46CB-AEE0-938E2135C453&play=3";
+    NSString *urlAddress = [NSString stringWithFormat:@"http:////mobile.staging.botb.com//Integration//AppPlay.aspx?id=2ACF7D76-8EFB-46CB-AEE0-938E2135C453&play=%d", numTickets];
     
     /*
     NSString *urlAddress = @"https://mobile.staging.botb.com/test_iframe1.html?id=2ACF7D76-8EFB-46CB-AEE0-938E2135C453&play=3";
@@ -46,10 +46,23 @@
     // the user clicked one of the OK/Cancel buttons
     if (buttonIndex == 0) {
         NSLog(@"cancel");
+        [self startGame:numT];  
     } else {
         NSLog(@"ok");
         [self leavingTheGame];
     }
+}
+- (void) leaveTheGameWithoutMessage:(BOOL)val {
+
+    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];  
+
+    if (val) {
+        [self startGame:numT];  
+    } else {
+
+        [self leavingTheGame];
+    }
+
 }
 - (void) rotateMessage {
     message.hidden = NO;
@@ -60,6 +73,7 @@
         message.transform = CGAffineTransformMakeRotation(degreesToRadian(90));
     }
 }
+
 -(void) leaveTheGame {
     
     message = [[UIAlertView alloc] initWithTitle:@"Best Of The Best"
@@ -105,7 +119,7 @@
 - (void)viewWillAppear:(BOOL)animated {
 
     [[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];  
-    [self startGame];
+    [self startGame:self.numT];
 
     webGame.frame = CGRectMake(0, 0, 460, 288);
     webGame.center = CGPointMake(144, 230);
@@ -133,7 +147,9 @@
 {
     [super viewDidLoad];
     webGame.delegate = self;
-
+    appStatus = 0;
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    delegate.game = self;
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -160,7 +176,6 @@
         return nil;
     }
 
-    
     return [splitting objectAtIndex:1];
   
 }
@@ -181,6 +196,7 @@
         [[UIApplication sharedApplication] openURL:url];
         return NO;
     } else if (!([urlStr rangeOfString:@"AppPlayQuit"].location == NSNotFound)) {
+        appStatus = 1;
         [self leaveTheGame];
     }
     return YES;

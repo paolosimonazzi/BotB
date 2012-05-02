@@ -7,10 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "Game.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window, orientation;
+@synthesize window = _window, orientation, game;
 
 -(UIButton*)createBackButton:(NSString*)str {
     UIImage *img = [UIImage imageNamed:@"buttonBack.png"];
@@ -33,7 +34,8 @@
 				
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
     
-    int app = 0;
+    NSString *str = [url absoluteString];
+    [game leaveTheGameWithoutMessage:NO];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

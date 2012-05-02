@@ -572,15 +572,13 @@
 		B65E63F31549518E00BB1C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ed Lea (Q3XEQEGK7C)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ed Lea (Q3XEQEGK7C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BotB/BotB-Prefix.pch";
 				INFOPLIST_FILE = "BotB/BotB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "BE54B9AE-B88F-4CCC-8A16-845DB47B7593";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BE54B9AE-B88F-4CCC-8A16-845DB47B7593";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -588,13 +586,13 @@
 		B65E63F41549518E00BB1C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ed Lea (Q3XEQEGK7C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Grapple Mobile Ltd";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BotB/BotB-Prefix.pch";
 				INFOPLIST_FILE = "BotB/BotB-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "BE54B9AE-B88F-4CCC-8A16-845DB47B7593";
+				PROVISIONING_PROFILE = "FA3587EA-3CE5-486D-94D2-8AB3644CE513";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

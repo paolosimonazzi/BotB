@@ -14,6 +14,8 @@
 
 }
 
+@property (nonatomic, retain) IBOutlet UILabel  *titleLabel;
+
 -(IBAction)buttonAction10:(id)sender;
 -(IBAction)buttonAction20:(id)sender;
 -(IBAction)buttonAction30:(id)sender;
