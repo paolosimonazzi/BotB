@@ -7,12 +7,15 @@
 //
 
 #import "TCScreen.h"
+#import "AppDelegate.h"
 
 @interface TCScreen ()
 
 @end
 
 @implementation TCScreen
+
+@synthesize scrollableView, labelTitle, TCStuff;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,11 +25,31 @@
     }
     return self;
 }
+-(void)back {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    scrollableView.contentSize = CGSizeMake(320, 6700);
+    scrollableView.showsVerticalScrollIndicator   = YES;
+    scrollableView.showsHorizontalScrollIndicator = NO;
+
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+
+    backButton = [delegate createBackButton:@""];
+    [backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    //[self.navigationItem setRightBarButtonItem:barButton animated:YES];
+    self.navigationItem.leftBarButtonItem = barButton;
+
     // Do any additional setup after loading the view from its nib.
+    /*
+    UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo.png"]];
+    U*/
+    self.navigationItem.titleView = labelTitle;  
+    [self.scrollableView addSubview:TCStuff];
 }
 
 - (void)viewDidUnload

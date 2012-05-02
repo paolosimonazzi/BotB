@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Video.h"
+#import "StartScreen.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO (@"5.0")) {
+        UIImage *NavigationPortraitBackground = [UIImage imageNamed:@"NavBar"];                              //resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+        [self.navigationBar setBackgroundImage:NavigationPortraitBackground 
+                                                      forBarMetrics:UIBarMetricsDefault];
+    }
+
+    startScreen = [[StartScreen alloc] initWithNibName:@"StartScreen" bundle:nil];
+    [self pushViewController:startScreen animated:NO];
+
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,7 +39,21 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+
+    if (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown)
+        return NO;
+    else {
+        YES;
+    }
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(IBAction)videoButton:(id)sender {
+    
+}
+
+-(IBAction)gameButton:(id)sender {
+
 }
 
 @end

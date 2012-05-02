@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCScreen : UIViewController
+@interface TCScreen : UIViewController {
+    UIButton    *backButton;
+}
+@property (nonatomic, retain) IBOutlet UIScrollView *scrollableView;
+@property (nonatomic, retain) IBOutlet UILabel      *labelTitle;
+@property (nonatomic, retain) IBOutlet UIView       *TCStuff;
+
 
 @end

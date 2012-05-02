@@ -10,14 +10,32 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+@synthesize window = _window, orientation;
+
+-(UIButton*)createBackButton:(NSString*)str {
+    UIImage *img = [UIImage imageNamed:@"buttonBack.png"];
+    UIImage *img2 = [UIImage imageNamed:@"buttonBackActive.png"];
+    UIButton *temp = [UIButton buttonWithType:UIButtonTypeCustom];
+    temp.bounds = CGRectMake(0,0,img.size.width,img.size.height);
+    [temp setBackgroundImage:img forState:UIControlStateNormal];
+    [temp setBackgroundImage:img2 forState:UIControlStateHighlighted];
+    [temp setTitle:[NSString stringWithFormat:@"  %@", str] forState:UIControlStateNormal];
+    //[temp setTitle:@"Back" forState:UIControlStateNormal];
+    temp.titleLabel.font = [UIFont systemFontOfSize:11.0f];
+    return temp;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     return YES;
 }
-							
+				
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    int app = 0;
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

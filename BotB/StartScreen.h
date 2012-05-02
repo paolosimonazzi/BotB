@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartScreen : UIViewController
+@class Video, Game ,BrilliantMenu;
+
+
+@interface StartScreen : UIViewController {
+    Video           *videoScreen;
+    UIButton        *TCButton;
+    Game            *game;
+    BrilliantMenu   *menu;
+}
+-(IBAction)videoButton:(id)sender;
+-(IBAction)gameButton:(id)sender;
 
 @end

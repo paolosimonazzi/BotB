@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TicketPurchasing : UIViewController
+@interface TicketPurchasing : UIViewController {
+
+    UIButton    *backButton;
+
+}
+
+-(IBAction)buttonAction10:(id)sender;
+-(IBAction)buttonAction20:(id)sender;
+-(IBAction)buttonAction30:(id)sender;
+-(IBAction)buttonAction50:(id)sender;
 
 @end

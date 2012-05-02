@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Game : UIViewController
+@interface Game : UIViewController <UIWebViewDelegate> {
 
+    UIButton    *backButton;
+    UIAlertView *message;
+    
+}
+-(IBAction)back:(id)sender;
+
+@property (nonatomic, retain) IBOutlet UIWebView   *webGame;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *spinner;
 @end

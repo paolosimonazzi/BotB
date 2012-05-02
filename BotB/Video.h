@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Video : UIViewController
+@interface YouTubeView : UIWebView {
+
+}
+- (YouTubeView *)initWithStringAsURL:(NSString *)urlString frame:(CGRect)frame;
+
+@end
+
+@interface Video : UIViewController {
+    UIButton    *backButton;
+
+}
 
 @end

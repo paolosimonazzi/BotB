@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+-(UIButton*)createBackButton:(NSString*)str;
+
+@property (nonatomic) BOOL orientation;
+
 @end
