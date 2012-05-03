@@ -8,6 +8,9 @@
 
 #import "Game.h"
 #import "AppDelegate.h"
+#import "BrilliantMenu.h"
+
+BrilliantMenu *brilliantMenu;
 
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 int appStatus;
@@ -39,8 +42,11 @@ int appStatus;
     [webGame loadRequest:requestObj];
 }
 - (void) animationFinished {
-    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popViewControllerAnimated:YES];
     [[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+    
+    [self.navigationController popToViewController:brilliantMenu animated:YES];
+
 }
 - (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     // the user clicked one of the OK/Cancel buttons
@@ -57,7 +63,10 @@ int appStatus;
     [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];  
 
     if (val) {
-        [self startGame:numT];  
+        //[self startGame:numT];
+        [self.navigationController popToRootViewControllerAnimated:NO];
+        [self leavingTheGame];
+
     } else {
 
         [self leavingTheGame];
@@ -150,6 +159,7 @@ int appStatus;
     appStatus = 0;
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     delegate.game = self;
+    
     // Do any additional setup after loading the view from its nib.
 }
 

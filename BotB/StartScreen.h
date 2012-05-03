@@ -15,9 +15,13 @@
     Video           *videoScreen;
     UIButton        *TCButton;
     Game            *game;
-    BrilliantMenu   *menu;
+    BrilliantMenu   *menu;    
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView *fakeSplash;
+
 -(IBAction)videoButton:(id)sender;
 -(IBAction)gameButton:(id)sender;
+
 
 @end

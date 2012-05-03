@@ -115,7 +115,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">1. Qualifying Persons</string>
+						<string type="base64-UTF8" key="IBUIText">MS4JRGlzY2xhaW1lcjo</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -141,7 +141,7 @@
 						<string key="NSFrame">{{46, 324}, {42, 21}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="218824706"/>
+						<reference key="NSNextKeyView" ref="454683200"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -166,7 +166,7 @@
 					<object class="IBUITextView" id="799129291">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 48}, {280, 117}}</string>
+						<string key="NSFrame">{{20, 48}, {280, 75}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="70207629"/>
@@ -177,7 +177,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIScrollEnabled">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
-						<string key="IBUIText">The Competition (a skill based game resulting in the allocation of prizes) is open to all persons aged 16 and over except Best of the Best Plc's (the 'Promoter') employees or members of their immediate family, agents or any other person who is connected with the creation or administration of our Competitions.</string>
+						<string key="IBUIText">Best of the Best Plc and our App are in no way related to or sponsored by Apple. Apple has no involvement in Best of the Best’s “Spot the Ball" game.</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
@@ -199,7 +199,33 @@
 					<object class="IBUITextView" id="415403455">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 201}, {280, 269}}</string>
+						<string key="NSFrame">{{20, 156}, {280, 123}}</string>
+						<reference key="NSSuperview" ref="282682086"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="218824706"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="680777600"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIMultipleTouchEnabled">YES</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIScrollEnabled">NO</bool>
+						<bool key="IBUIEditable">NO</bool>
+						<string key="IBUIText">The Competition (a skill based game resulting in the allocation of prizes) is open to all persons aged 16 and over except Best of the Best Plc's (the 'Promoter') employees or members of their immediate family, agents or any other person who is connected with the creation or administration of our Competitions.</string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
+						</object>
+						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+							<int key="IBUIAutocapitalizationType">2</int>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						</object>
+						<reference key="IBUIFontDescription" ref="927848715"/>
+						<reference key="IBUIFont" ref="301062646"/>
+					</object>
+					<object class="IBUITextView" id="564949003">
+						<reference key="NSNextResponder" ref="282682086"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 311}, {280, 269}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="288786149"/>
@@ -223,53 +249,7 @@ biB5b3VyIGNvdW50cnkgb2YgcmVzaWRlbmNlIHJlZ2FyZGluZyB0aGUgbGVnYWxpdHkgb2YgZW50ZXJp
 bmcuIFRoZSBQcm9tb3RlciB3aWxsIG5vdCBiZSBoZWxkIHJlc3BvbnNpYmxlIGZvciBhbnkgRW50cmFu
 dCBlbnRlcmluZyBvdXIgQ29tcGV0aXRpb24gdW5sYXdmdWxseS4gSWYgaW4gYW55IGRvdWJ0IHlvdSBz
 aG91bGQgaW1tZWRpYXRlbHkgbGVhdmUgdGhlIGFwcCBhbmQgY2hlY2sgd2l0aCB0aGUgcmVsZXZhbnQg
-YXV0aG9yaXRpZXMgaW4geW91ciBjb3VudHJ5Lg</bytes>
-						</object>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
-						</object>
-						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
-							<int key="IBUIAutocapitalizationType">2</int>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="927848715"/>
-						<reference key="IBUIFont" ref="301062646"/>
-					</object>
-					<object class="IBUITextView" id="564949003">
-						<reference key="NSNextResponder" ref="282682086"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 502}, {280, 374}}</string>
-						<reference key="NSSuperview" ref="282682086"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="454683200"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="680777600"/>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIScrollEnabled">NO</bool>
-						<bool key="IBUIEditable">NO</bool>
-						<object class="NSMutableString" key="IBUIText">
-							<bytes key="NS.bytes">VXNpbmcgYWxsIHRoZSBpbmZvcm1hdGlvbiBzaG93biBpbiB0aGUgc3BvcnRpbmcgcGhvdG9ncmFwaCBk
-aXNwbGF5ZWQgb24geW91ciBzY3JlZW4gKGZyb20gd2hpY2ggdGhlIG9yaWdpbmFsIGJhbGwgaGFzIGJl
-ZW4gcGVybWFuZW50bHkgZXJhc2VkKSwgdXNlIHlvdXIgc2tpbGwgYW5kIGp1ZGdlbWVudCB0byBjb3Jy
-ZWN0bHkgaWRlbnRpZnkgdGhlIHBvc2l0aW9uIHdoaWNoIHlvdSBjb25zaWRlciB0aGUgSnVkZ2Ugd2ls
-bCBkZWNpZGUsIGlzIHRoZSBtb3N0IGxpa2VseSBwb3NpdGlvbiBvZiB0aGUgY2VudHJlIG9mIHRoZSBi
-YWxsLiBUYXAgb24gdGhlIHNjcmVlbiB0byBtYXJrIHRoaXMgc3BvdCAoeW91IGNhbiBzZWUgeW91ciBz
-cG90J3MgY29vcmRpbmF0ZXMgb24gdGhlIHNjcmVlbikuIFRoZSBkZXZpY2Ugd2lsbCByZWdpc3RlciB0
-aGlzIHNwb3QgYXMgeW91ciBlbnRyeSBpbnRvIHRoZSBDb21wZXRpdGlvbi4gWW91IG1heSByZXBlYXQg
-dGhpcyBwcm9jZXNzIGZvciBhcyBtYW55IGVudHJpZXMgYXMgeW91IHdpc2ggdG8gbWFrZS4gDVdoZW4g
-eW91IGFyZSByZWFkeSB0byBwdXJjaGFzZSB5b3VyIFRpY2tldChzKSwgZm9sbG93IHRoZSBvbi1zY3Jl
-ZW4gaW5zdHJ1Y3Rpb25zIHRvIHByb3ZpZGUgeW91ciBjb250YWN0IGRldGFpbHMgYW5kIHlvdXIgY3Jl
-ZGl0IGNhcmQgZGV0YWlscy4gWW91IHdpbGwgbmVlZCB0byBjaGVjayB0aGVzZSBjYXJlZnVsbHkgYW5k
-IHRpY2sgdGhlIGRlY2xhcmF0aW9uLCBjb25maXJtaW5nIHlvdSBoYXZlIHJlYWQgYW5kIHVuZGVyc3Rv
-b2QgdGhlIENvbXBldGl0aW9uIHJ1bGVzLiBXaGVuIHlvdXIgY3JlZGl0IGNhcmQgcGF5bWVudCBoYXMg
-Y2xlYXJlZCB3ZSB3aWxsIGNvbnRhY3QgeW91IGJ5IGVtYWlsIHRvIGNvbmZpcm0geW91ciBlbnRyeSBp
-bnRvIHRoZSBDb21wZXRpdGlvbi4gUGxlYXNlIG5vdGUgdGhhdCB5b3Ugd2lsbCBub3QgYmUgZGVlbWVk
-IGVudGVyZWQgaW50byB0aGUgQ29tcGV0aXRpb24gdW50aWwgd2UgY29uZmlybSB5b3VyIFRpY2tldCBP
-cmRlciBiYWNrIHRvIHlvdSBieSBlbWFpbC4gTkI+IEF2YWlsYWJpbGl0eSBhbmQgcHJpY2luZyBvZiBD
-b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
+YXV0aG9yaXRpZXMgaW4geW91ciBjb3VudHJ5Lg0NA</bytes>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -285,7 +265,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 					<object class="IBUILabel" id="70207629">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 176}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 131}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="415403455"/>
@@ -295,7 +275,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">2. Legal Undertaking</string>
+						<string key="IBUIText">2. Qualifying Persons:</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -312,7 +292,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 					<object class="IBUILabel" id="218824706">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 477}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 286}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="564949003"/>
@@ -322,7 +302,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">3. Competion Entry</string>
+						<string key="IBUIText">3. Legal Undertaking:</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -337,7 +317,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 					<object class="IBUITextView" id="975046906">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 909}, {280, 228}}</string>
+						<string key="NSFrame">{{20, 613}, {280, 185}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1040661927"/>
@@ -349,7 +329,15 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 						<bool key="IBUIScrollEnabled">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
 						<object class="NSMutableString" key="IBUIText">
-							<characters key="NS.bytes">To pay for your Ticket(s) using a Gift Voucher, please follow the playing instructions outlined in (3). To make payment, enter the code supplied on your Gift Voucher at the checkout stage. Please note that Competition entries can only be purchased up to and including the value of the Gift Voucher. No refund for the Gift Voucher will be provided by the Promoter. If you wish to purchase Tickets that have a greater value than that of the Gift Voucher, it is possible to pay for the remainder on your credit card. Please note, you will not be deemed entered into the Competition until we confirm your Ticket Order back to you by email.</characters>
+							<bytes key="NS.bytes">VXNpbmcgYWxsIHRoZSBpbmZvcm1hdGlvbiBzaG93biBpbiB0aGUgc3BvcnRpbmcgcGhvdG9ncmFwaCBk
+aXNwbGF5ZWQgb24geW91ciBzY3JlZW4gKGZyb20gd2hpY2ggdGhlIG9yaWdpbmFsIGJhbGwgaGFzIGJl
+ZW4gcGVybWFuZW50bHkgZXJhc2VkKSwgdXNlIHlvdXIgc2tpbGwgYW5kIGp1ZGdlbWVudCB0byBjb3Jy
+ZWN0bHkgaWRlbnRpZnkgdGhlIHBvc2l0aW9uIHdoaWNoIHlvdSBjb25zaWRlciB0aGUgSnVkZ2Ugd2ls
+bCBkZWNpZGUsIGlzIHRoZSBtb3N0IGxpa2VseSBwb3NpdGlvbiBvZiB0aGUgY2VudHJlIG9mIHRoZSBi
+YWxsLiBUYXAgb24gdGhlIHNjcmVlbiB0byBtYXJrIHRoaXMgc3BvdCAoeW91IGNhbiBzZWUgeW91ciBz
+cG90J3MgY29vcmRpbmF0ZXMgb24gdGhlIHNjcmVlbikuIFRoZSBkZXZpY2Ugd2lsbCByZWdpc3RlciB0
+aGlzIHNwb3QgYXMgeW91ciBlbnRyeSBpbnRvIHRoZSBDb21wZXRpdGlvbi4gWW91IG1heSByZXBlYXQg
+dGhpcyBwcm9jZXNzIGZvciBhcyBtYW55IGVudHJpZXMgYXMgeW91IHdpc2ggdG8gbWFrZS4gA</bytes>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -365,7 +353,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 					<object class="IBUILabel" id="454683200">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 884}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 588}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="975046906"/>
@@ -375,7 +363,7 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">NC4JR2lmdCBWb3VjaGVyczo</string>
+						<string key="IBUIText">4. Competition Entry: </string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -390,10 +378,10 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 					<object class="IBUITextView" id="146205548">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 1168}, {280, 1964}}</string>
+						<string key="NSFrame">{{20, 833}, {280, 2417}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="400968440"/>
+						<reference key="NSNextKeyView" ref="1034979981"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="680777600"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -402,7 +390,18 @@ b21wZXRpdGlvbnMgaXMgYXQgdGhlIGRpc2NyZXRpb24gb2YgdGhlIFByb21vdGVyLg0</bytes>
 						<bool key="IBUIScrollEnabled">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
 						<object class="NSMutableString" key="IBUIText">
-							<bytes key="NS.bytes">U3VwZXJjYXIgQ29tcGV0aXRpb25zIHdpbGwgY2xvc2Ugb24gdGhlIGRhdGUgc3BlY2lmaWVkLiBUaGUg
+							<bytes key="NS.bytes">VG8gcGF5IGZvciB5b3VyIFRpY2tldChzKSB1c2luZyBhIEdpZnQgVm91Y2hlciwgcGxlYXNlIGZvbGxv
+dyB0aGUgcGxheWluZyBpbnN0cnVjdGlvbnMgb3V0bGluZWQgaW4gKDMpLiBUbyBtYWtlIHBheW1lbnQs
+IGVudGVyIHRoZSBjb2RlIHN1cHBsaWVkIG9uIHlvdXIgR2lmdCBWb3VjaGVyIGF0IHRoZSBjaGVja291
+dCBzdGFnZS4gUGxlYXNlIG5vdGUgdGhhdCBDb21wZXRpdGlvbiBlbnRyaWVzIGNhbiBvbmx5IGJlIHB1
+cmNoYXNlZCB1cCB0byBhbmQgaW5jbHVkaW5nIHRoZSB2YWx1ZSBvZiB0aGUgR2lmdCBWb3VjaGVyLiBO
+byByZWZ1bmQgZm9yIHRoZSBHaWZ0IFZvdWNoZXIgd2lsbCBiZSBwcm92aWRlZCBieSB0aGUgUHJvbW90
+ZXIuIElmIHlvdSB3aXNoIHRvIHB1cmNoYXNlIFRpY2tldHMgdGhhdCBoYXZlIGEgZ3JlYXRlciB2YWx1
+ZSB0aGFuIHRoYXQgb2YgdGhlIEdpZnQgVm91Y2hlciwgaXQgaXMgcG9zc2libGUgdG8gcGF5IGZvciB0
+aGUgcmVtYWluZGVyIG9uIHlvdXIgY3JlZGl0IGNhcmQuIFBsZWFzZSBub3RlLCB5b3Ugd2lsbCBub3Qg
+YmUgZGVlbWVkIGVudGVyZWQgaW50byB0aGUgQ29tcGV0aXRpb24gdW50aWwgd2UgY29uZmlybSB5b3Vy
+IFRpY2tldCBPcmRlciBiYWNrIHRvIHlvdSBieSBlbWFpbC4NDUNvbXBldGl0aW9uIEp1ZGdlbWVudDog
+U3VwZXJjYXIgQ29tcGV0aXRpb25zIHdpbGwgY2xvc2Ugb24gdGhlIGRhdGUgc3BlY2lmaWVkLiBUaGUg
 cG9zaXRpb24gb2YgdGhlIGNlbnRyZSBvZiB0aGUgYmFsbCB3aWxsIG5vcm1hbGx5IGJlIGRldGVybWlu
 ZWQgYWZ0ZXIgdGhlIGNsb3NlIG9mIHRoZSBjb21wZXRpdGlvbiBieSBhbiBpbmRlcGVuZGVudCBKdWRn
 ZSAoYSBzcG9ydGluZyBleHBlcnQgYXBwb2ludGVkIGJ5IHRoZSBQcm9tb3RlciDigJMgdGhlICdKdWRn
@@ -493,7 +492,20 @@ bmcgZGF0ZSBvbiB0aGUgQ29tcGV0aXRpb24uDQ1BbGwgQ29tcGV0aXRpb24gRW50cmFudHMgYXJlIGF1
 dG9tYXRpY2FsbHkgZW50ZXJlZCBvbnRvIHRoZSBQcm9tb3RlcidzIGRhdGFiYXNlIGZvciB0aGUgcHVy
 cG9zZSBvZiBjb252ZXlpbmcgaW5mb3JtYXRpb24gYXMgdG8gdGhlIHN0YXR1cyBvZiB0aGVpciBDb21w
 ZXRpdGlvbiwgYXMgd2VsbCBhcyBmb3IgYW55IGZ1dHVyZSBwcm9tb3Rpb25zIG9yIENvbXBldGl0aW9u
-cyBvZmZlcmVkIGJ5IHRoZSBQcm9tb3Rlci4NDQ</bytes>
+cyBvZmZlcmVkIGJ5IHRoZSBQcm9tb3Rlci4NDVdpbm5lcidzIERldGFpbHM6IFRoZSBXaW5uZXIgd2ls
+bCBiZSByZXF1aXJlZCB0byBzZW5kIGEgY29weSBvZiB0aGVpciBwYXNzcG9ydCB0byB0aGUgUHJvbW90
+ZXIgdG8gY29uZmlybSB0aGVpciBpZGVudGl0eSwgYWdlIGFuZCBhbHNvIHRvIHByb3ZlIHRoYXQgaWYg
+dGhlIHB1cmNoYXNlIHdhcyBtYWRlIGJ5IGNyZWRpdCBjYXJkIHRoYXQgdGhlIGNhcmQgd2FzIGxlZ2Fs
+bHkgdGhlaXJzIG9yIHRoYXQgdGhleSBoYWQgYXV0aG9yaXNhdGlvbiB0byB1c2UgaXQsIGJlZm9yZSBh
+bnkgcHJpemUgd2lsbCBiZSBwYWlkIG9yIGRlbGl2ZXJlZC4gVGhlIFdpbm5lciB3aWxsIGFsc28gYmUg
+cmVxdWlyZWQgdG8gcHJvdmlkZSBwaG90b2dyYXBocyBmb3IgdXNlIGluIGZ1dHVyZSBtYXJrZXRpbmcg
+YnkgdGhlIFByb21vdGVyLiBGb2xsb3dpbmcgcmVjZWlwdCBhbmQgdmVyaWZpY2F0aW9uIG9mIHRoZSBk
+ZXRhaWxzIHJlcXVlc3RlZCBhYm92ZSBieSB0aGUgUHJvbW90ZXIsIHRoZSBXaW5uZXIgd2lsbCBiZSBj
+b250YWN0ZWQgaW4gb3JkZXIgdG8gbWFrZSBhcnJhbmdlbWVudHMgZm9yIGRlbGl2ZXJ5IG9mIHRoZSBw
+cml6ZS4gQXQgdGhpcyBwb2ludCB0aGUgV2lubmVyIG11c3QgY2hvb3NlIGJldHdlZW4gdGhlIHByaXpl
+cyBhdmFpbGFibGUgKGFzIGRldGFpbGVkIGluIHRoZSBDb21wZXRpdGlvbiBwcml6ZSBpbmZvcm1hdGlv
+biBvbiB0aGUgUHJvbW90ZXJzJyB3ZWJzaXRlIHd3dy5ib3RiLmNvbSkgYW5kIG5vdGlmeSB0aGUgcHJv
+bW90ZXIgb2YgdGhlaXIgY2hvaWNlIGluIHdyaXRpbmcuDQ</bytes>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -509,7 +521,7 @@ cyBvZmZlcmVkIGJ5IHRoZSBQcm9tb3Rlci4NDQ</bytes>
 					<object class="IBUILabel" id="1040661927">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 1141}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 806}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="146205548"/>
@@ -519,72 +531,7 @@ cyBvZmZlcmVkIGJ5IHRoZSBQcm9tb3Rlci4NDQ</bytes>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">NS4JQ29tcGV0aXRpb24gSnVkZ2VtZW50Og</string>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
-							<reference key="NSCustomColorSpace" ref="797923613"/>
-						</object>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="197619192"/>
-						<reference key="IBUIFont" ref="753970378"/>
-					</object>
-					<object class="IBUITextView" id="773275831">
-						<reference key="NSNextResponder" ref="282682086"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 3143}, {280, 269}}</string>
-						<reference key="NSSuperview" ref="282682086"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1034979981"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="680777600"/>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIScrollEnabled">NO</bool>
-						<bool key="IBUIEditable">NO</bool>
-						<object class="NSMutableString" key="IBUIText">
-							<bytes key="NS.bytes">VGhlIFdpbm5lciB3aWxsIGJlIHJlcXVpcmVkIHRvIHNlbmQgYSBjb3B5IG9mIHRoZWlyIHBhc3Nwb3J0
-IHRvIHRoZSBQcm9tb3RlciB0byBjb25maXJtIHRoZWlyIGlkZW50aXR5LCBhZ2UgYW5kIGFsc28gdG8g
-cHJvdmUgdGhhdCBpZiB0aGUgcHVyY2hhc2Ugd2FzIG1hZGUgYnkgY3JlZGl0IGNhcmQgdGhhdCB0aGUg
-Y2FyZCB3YXMgbGVnYWxseSB0aGVpcnMgb3IgdGhhdCB0aGV5IGhhZCBhdXRob3Jpc2F0aW9uIHRvIHVz
-ZSBpdCwgYmVmb3JlIGFueSBwcml6ZSB3aWxsIGJlIHBhaWQgb3IgZGVsaXZlcmVkLiBUaGUgV2lubmVy
-IHdpbGwgYWxzbyBiZSByZXF1aXJlZCB0byBwcm92aWRlIHBob3RvZ3JhcGhzIGZvciB1c2UgaW4gZnV0
-dXJlIG1hcmtldGluZyBieSB0aGUgUHJvbW90ZXIuIEZvbGxvd2luZyByZWNlaXB0IGFuZCB2ZXJpZmlj
-YXRpb24gb2YgdGhlIGRldGFpbHMgcmVxdWVzdGVkIGFib3ZlIGJ5IHRoZSBQcm9tb3RlciwgdGhlIFdp
-bm5lciB3aWxsIGJlIGNvbnRhY3RlZCBpbiBvcmRlciB0byBtYWtlIGFycmFuZ2VtZW50cyBmb3IgZGVs
-aXZlcnkgb2YgdGhlIHByaXplLiBBdCB0aGlzIHBvaW50IHRoZSBXaW5uZXIgbXVzdCBjaG9vc2UgYmV0
-d2VlbiB0aGUgcHJpemVzIGF2YWlsYWJsZSAoYXMgZGV0YWlsZWQgaW4gdGhlIENvbXBldGl0aW9uIHBy
-aXplIGluZm9ybWF0aW9uIG9uIHRoZSBQcm9tb3RlcnMnIHdlYnNpdGUgd3d3LmJvdGIuY29tKSBhbmQg
-bm90aWZ5IHRoZSBwcm9tb3RlciBvZiB0aGVpciBjaG9pY2UgaW4gd3JpdGluZy4</bytes>
-						</object>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
-						</object>
-						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
-							<int key="IBUIAutocapitalizationType">2</int>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="927848715"/>
-						<reference key="IBUIFont" ref="301062646"/>
-					</object>
-					<object class="IBUILabel" id="400968440">
-						<reference key="NSNextResponder" ref="282682086"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 3118}, {280, 35}}</string>
-						<reference key="NSSuperview" ref="282682086"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="773275831"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string type="base64-UTF8" key="IBUIText">Ni4JV2lubmVyJ3MgRGV0YWlsczo</string>
+						<string key="IBUIText">5. Gift Vouchers:</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -599,7 +546,7 @@ bm90aWZ5IHRoZSBwcm9tb3RlciBvZiB0aGVpciBjaG9pY2UgaW4gd3JpdGluZy4</bytes>
 					<object class="IBUITextView" id="79736216">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 3445}, {280, 1661}}</string>
+						<string key="NSFrame">{{20, 3283}, {280, 1655}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="730417667"/>
@@ -623,16 +570,16 @@ YnNpdGUgcmVsYXRpbmcgdG8gdGhhdCBDb21wZXRpdGlvbi4gRm9yIHRoZSBhdm9pZGFuY2Ugb2YgZG91
 YnQsIHRoZXJlIHdpbGwgYmUgb25seSBvbmUgcHJpemUgYXdhcmRlZCBmb3IgZWFjaCBUaW1lIExpbWl0
 ZWQgU3VwZXJjYXIgQ29tcGV0aXRpb24gYW5kIG5vdCBvbmUgcHJpemUgZnJvbSBlYWNoIG9mIFN1cGVy
 Y2FyIENhdGVnb3J5IDEsIFN1cGVyY2FyIENhdGVnb3J5IDIgYW5kIFN1cGVyY2FyIENhdGVnb3J5IDMu
-IFBsZWFzZSBhbHNvIG5vdGUgdGhlIGZvbGxvd2luZzoNKGkpIER1cmluZyB0aGUgY291cnNlIG9mIGEg
+IFBsZWFzZSBhbHNvIG5vdGUgdGhlIGZvbGxvd2luZzoNDWkpCUR1cmluZyB0aGUgY291cnNlIG9mIGEg
 VGltZSBMaW1pdGVkIFN1cGVyY2FyIENvbXBldGl0aW9uIHRoZSBQcm9tb3RlciByZXNlcnZlcyB0aGUg
 cmlnaHQgdG8gYWRkIG9yIHJlbW92ZSBwcml6ZXMgZnJvbSB0aGUgQ29tcGV0aXRpb24gYnV0IHRoZXJl
 IHdpbGwgYWx3YXlzIGJlIGEgc2VsZWN0aW9uIG9mIExlZnQgYW5kIFJpZ2h0IEhhbmQgRHJpdmUgY2Fy
-cy4NKGlpKSBUaGUgY2FycyBvd25lZCBhbmQgZGlzcGxheWVkIGJ5IHRoZSBQcm9tb3RlciBjb25zaXN0
+cy4NDWlpKQlUaGUgY2FycyBvd25lZCBhbmQgZGlzcGxheWVkIGJ5IHRoZSBQcm9tb3RlciBjb25zaXN0
 IG9mIGJvdGggcmVnaXN0ZXJlZCBhbmQgdW5yZWdpc3RlcmVkIHZlaGljbGVzLiBQbGVhc2Ugbm90ZSBh
 bHNvIHRoYXQgc29tZSBvZiB0aGUgY2FycyBleGhpYml0ZWQgYXQgb3VyIGFpcnBvcnQgc2l0ZXMgYXJl
 IGZvciBkaXNwbGF5IHB1cnBvc2VzIG9ubHkgYW5kIGNhbm5vdCBiZSB0YWtlbiBhcyBwcml6ZXMgKHRo
 ZSByZWFzb24gZm9yIHRoaXMgaXMgdGhhdCBzb21lIG9mIHRoZXNlIGNhcnMgaGF2ZSBleGNlc3MgZGVs
-aXZlcnkgbWlsZWFnZSBvciBtYXkgbm90IGJlIFZBVCBxdWFsaWZ5aW5nKS4NKGlpaSkgSWYgdGhlIFdp
+aXZlcnkgbWlsZWFnZSBvciBtYXkgbm90IGJlIFZBVCBxdWFsaWZ5aW5nKS4NDWlpaSkJSWYgdGhlIFdp
 bm5lciB3b3VsZCBsaWtlIHRvIHRha2UgYSBjYXIgdGhhdCB0aGUgUHJvbW90ZXIgZG9lcyBub3QgYWxy
 ZWFkeSBvd24sIGFuIG9yZGVyIHdpbGwgYmUgcGxhY2VkIGJ5IHRoZSBQcm9tb3Rlci4gUGxlYXNlIG5v
 dGUgdGhhdCBpZiB0aGUgV2lubmVyIGRlY2lkZXMgdG8gZG8gdGhpcywgZGVsaXZlcnkgbWF5IHRha2Ug
@@ -642,12 +589,12 @@ aXZlIHdpbGwgYmUgb3JkZXJlZCBpbiB0aGUgVUsgZnJvbSBVSyBkZWFsZXJzIG9ubHkuIEJlc3Bva2Ug
 b3B0aW9ucyBhbmQgdXBncmFkZXMgY2FuIGJlIGFkZGVkIGF0IHRoZSBwcml6ZSBXaW5uZXJzJyByZXF1
 ZXN0IGJ1dCBtdXN0IGJlIHBhaWQgZm9yIGluIGFkdmFuY2UuIFRoZSB3aW5uZXIgY2FuIGNob29zZSB0
 aGUgY2FyIGluIExlZnQgb3IgUmlnaHQgSGFuZCBEcml2ZSAoc3ViamVjdCB0byBtYW51ZmFjdHVyZXIg
-YXZhaWxhYmlsaXR5IGFuZCB0ZXJtcyBhbmQgY29uZGl0aW9ucykuDShpdikgSW4gdGhlIFVLIHRoZSBw
+YXZhaWxhYmlsaXR5IGFuZCB0ZXJtcyBhbmQgY29uZGl0aW9ucykuDQ1pdikJSW4gdGhlIFVLIHRoZSBw
 cml6ZSB3aWxsIGJlIGRlbGl2ZXJlZCB3aXRoIFVLIFZBVCBwYWlkLiBJbiB0aGUgRVUgdGhlIHByaXpl
 IHdpbGwgYmUgZGVsaXZlcmVkIHdpdGggVUsgVkFUIHBhaWQgYnV0IGFueSBmdXJ0aGVyIGNvc3RzIChW
 QVQvdGF4ZXMvaW1wb3J0IGR1dGllcy9yZWdpc3RyYXRpb24gY29zdHMgZHVlIGluIHRoZSBkZXN0aW5h
 dGlvbi9jb3VudHJ5IG9mIGZpbmFsIHJlZ2lzdHJhdGlvbikgd2lsbCBiZSB0aGUgcmVzcG9uc2liaWxp
-dHkgb2YgdGhlIHByaXplIFdpbm5lci4NKHYpIEluIGFsbCBvdGhlciBjb3VudHJpZXMgdGhlIHByaXpl
+dHkgb2YgdGhlIHByaXplIFdpbm5lci4NDXYpCUluIGFsbCBvdGhlciBjb3VudHJpZXMgdGhlIHByaXpl
 IHdpbGwgYmUgc2hpcHBlZCAobmV0IG9mIGFsbCB0YXhlcykgdG8gdGhlIG5lYXJlc3QgcG9ydCBhbmQg
 YW55IGFwcGxpY2FibGUgaW1wb3J0IGR1dGllcy90YXhlcy9yZWdpc3RyYXRpb24gY29zdHMgZHVlIGlu
 IHRoZSBkZXN0aW5hdGlvbiBjb3VudHJ5IHdpbGwgYmUgdGhlIHJlc3BvbnNpYmlsaXR5IG9mIHRoZSBw
@@ -656,44 +603,37 @@ dG8gY2VydGFpbiBjb3VudHJpZXMuIFBsZWFzZSBub3RlIHRoYXQgYWxsIG91ciBjYXJzIGFyZSBzdXBw
 bGllZCBpbiB0aGUgVUsgYW5kIHRoZXJlZm9yZSBpZiBleHBvcnRlZCBtYXkgbm90IGJlIHJvYWQgbGVn
 YWwgaW4gdGhlIGRlc3RpbmF0aW9uIGNvdW50cnkuIEl0IGlzIHRoZSB3aW5uZXLigJlzIHJlc3BvbnNp
 YmlsaXR5IHRvIGNoZWNrIHRoaXMgYW5kIGNob29zZSBhbiBhbHRlcm5hdGl2ZSBjYXIgb3IgdGFrZSB0
-aGUgY2FzaCBhbHRlcm5hdGl2ZSBpZiBhcHByb3ByaWF0ZS4NQXMgYSByZXN1bHQgb2Ygb3VyIHByZXNl
-bmNlIGF0IENvcGVuaGFnZW4gQWlycG9ydCwgd2Ugb2ZmZXIgY2VydGFpbiBjYXJzIHdpdGggRGFuaXNo
-IHJlZ2lzdHJhdGlvbiB0YXhlcyBwYWlkICgnRGFuaXNoIFRheCBQYWlkJykuIFBsZWFzZSBub3RlIHRo
-YXQgdGhlIERhbmlzaCBUYXggUGFpZCBvcHRpb24gaXMgc3RyaWN0bHkgbGltaXRlZCB0byBjZXJ0YWlu
-IGNhcnMgYW5kIHRoYXQgaWYgYSBEYW5pc2ggTmF0aW9uYWwgcHJpemUgV2lubmVyIHdpc2hlcyB0byBj
-aG9vc2UgYW55IG90aGVyIGNhciwgdGhleSB3aWxsIGJlIGxpYWJsZSBmb3IgYXBwbGljYWJsZSBEYW5p
-c2ggVGF4ZXMuDSh2aWkpIFRoZSBwcm9tb3RlciB3aWxsIHBheSBmb3IgdGhlIHNlcnZpY2luZyBhbmQg
-aW5zdXJhbmNlIGZvciB0aGUgZmlyc3QgeWVhciBvZiBjYXIgb3duZXJzaGlwLiBJbnZvaWNlcyBmb3Ig
-c2VydmljaW5nIGFuZCBpbnN1cmFuY2Ugd2lsbCBuZWVkIHRvIGJlIHN1cHBsaWVkIHRvIHRoZSBQcm9t
-b3RlciBiZWZvcmUgYW55IG1vbmV5IHdpbGwgYmUgY3JlZGl0ZWQgYW5kIHRoZSBwcml6ZSBXaW5uZXIg
-bXVzdCBvd24gdGhlIGNhciBmb3IgYSBmdWxsIDEyIG1vbnRocyBmcm9tIGRhdGUgb2YgZGVsaXZlcnku
-IFRoZSBtYXhpbXVtIHRoZSBwcm9tb3RlciB3aWxsIHBheSBmb3IgaW5zdXJhbmNlIGlzIMKjMTAsMDAw
-IGFuZCBpZiB0aGUgaW5zdXJhbmNlIHF1b3RlIGV4Y2VlZHMgdGhpcyBhbW91bnQgdGhlIHdpbm5lciB3
-aWxsIGhhdmUgdG8gcGF5IHRoZSBhZGRpdGlvbmFsIGZlZXMuIEluc3VyYW5jZSB3aWxsIGJlIHN1Ympl
-Y3QgdG8gYSDCozUsMDAwIGV4Y2VzcywgYmUgZm9yIG5vcm1hbCByb2FkIHVzZSBvbmx5LCBsaW1pdGVk
-IHRvIDIwLDAwMCBtaWxlcyBhbmQgd2lsbCBiZSBzdWJqZWN0IHRvIHRoZSB0ZXJtcyBhbmQgY29uZGl0
-aW9ucyBvZiB0aGUgaW5zdXJhbmNlIHByb3ZpZGVyLiBTZXJ2aWNpbmcgd2lsbCBiZSB1bmRlcnRha2Vu
-IGJ5IGEgbWFpbiBkZWFsZXIgYW5kIGJlIHN1YmplY3QgdG8g4oCcbm9ybWFsIHJvYWQgdXNlIG9ubHni
-gJ0uIFRoZSBtYXhpbXVtIHRoZSBwcm9tb3RlciB3aWxsIHBheSBmb3Igc2VydmljaW5nIGNvc3RzIGlz
-IMKjNCwwMDAuIFRoZXNlIG1heGltdW0gbGltaXRzIHdpbGwgYXBwbHkgZXZlbiBpZiBhIHR3byBjYXIg
-YnVuZGxlIGlzIGNob3Nlbi4NKHZpaWkpIFN1cGVyY2FyIENvbXBldGl0aW9uIENhc2ggQWx0ZXJuYXRp
-dmU6IFNob3VsZCBhIFN1cGVyY2FyIENvbXBldGl0aW9uIChwcmVmaXhlZCDigJhTQ+KAmSkgV2lubmVy
-IG5vdCB3aXNoIHRvIHRha2UgZGVsaXZlcnkgb2Ygb25lIG9mIHRoZSBwcml6ZXMgZGV0YWlsZWQsIHRo
-ZSBTdXBlcmNhciBDb21wZXRpdGlvbiBDYXNoIEFsdGVybmF0aXZlIGNhbiBiZSBjbGFpbWVkLiBUaGUg
-Q2FzaCBBbHRlcm5hdGl2ZSBpcyDCozEwMCwwMDAgZm9yIHRoZSB0aWNrZXRzIHB1cmNoYXNlZCBpbiBT
-dXBlcmNhciBDYXRlZ29yeSAxOyDCozU1LDAwMCBmb3IgdGlja2V0cyBwdXJjaGFzZWQgaW4gU3VwZXJj
-YXIgQ2F0ZWdvcnkgMjsgYW5kIMKjMzAsMDAwIGZvciBUaWNrZXRzIHB1cmNoYXNlZCBpbiBTdXBlcmNh
-ciBDYXRlZ29yeSAzLiBQbGVhc2Ugbm90ZSB0aGF0IHRoZSBhZGRpdGlvbmFsIG1vbmV5IG9mZmVyZWQg
-dG93YXJkcyBpbnN1cmFuY2UgYW5kIHNlcnZpY2luZyBjb3N0cyBmb3IgdGhlIGZpcnN0IHllYXIgb2Yg
-c3VwZXJjYXIgb3duZXJzaGlwIGlzIG5vdCBpbmNsdWRlZCBzaG91bGQgdGhlIFdpbm5lciBvcHQgZm9y
-IHRoZSBTdXBlcmNhciBDb21wZXRpdGlvbiBDYXNoIEFsdGVybmF0aXZlLg0oaXgpIFJ1bm5lcnMgVXAg
-UHJpemVzOiBSdW5uZXJzIFVwIFByaXplcyB3aWxsIGJlIGF3YXJkZWQgZm9yIFN1cGVyY2FyIENvbXBl
-dGl0aW9ucyBvbmx5LCBpbiB0aGUgZm9sbG93aW5nIG1hbm5lci4gVGhlIHRlbiBFbnRyYW50cyBjbG9z
-ZXN0IHRvIHRoZSBKdWRnZSdzIHBvc2l0aW9uIHdpdGggdGhlIGV4Y2VwdGlvbiBvZiB0aGUgV2lubmVy
-LCB3aWxsIGVhY2ggcmVjZWl2ZSDCozIwMCB3b3J0aCAoZmFjZSB2YWx1ZSkgb2YgU3VwZXJjYXIgQ29t
-cGV0aXRpb24gdGlja2V0cyBmb3IgQ29tcGV0aXRpb25zIHJ1biBieSB0aGUgcHJvbW90ZXIuIFRoZXNl
-IG1heSBub3QgYmUgdXNlZCBpbiBjb25qdW5jdGlvbiB3aXRoIGFueSBmdXJ0aGVyIG9mZmVycyBhbmQg
-bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
+aGUgY2FzaCBhbHRlcm5hdGl2ZSBpZiBhcHByb3ByaWF0ZS4NDXZpKQlBcyBhIHJlc3VsdCBvZiBvdXIg
+cHJlc2VuY2UgYXQgQ29wZW5oYWdlbiBBaXJwb3J0LCB3ZSBvZmZlciBjZXJ0YWluIGNhcnMgd2l0aCBE
+YW5pc2ggcmVnaXN0cmF0aW9uIHRheGVzIHBhaWQgKCdEYW5pc2ggVGF4IFBhaWQnKS4gUGxlYXNlIG5v
+dGUgdGhhdCB0aGUgRGFuaXNoIFRheCBQYWlkIG9wdGlvbiBpcyBzdHJpY3RseSBsaW1pdGVkIHRvIGNl
+cnRhaW4gY2FycyBhbmQgdGhhdCBpZiBhIERhbmlzaCBOYXRpb25hbCBwcml6ZSBXaW5uZXIgd2lzaGVz
+IHRvIGNob29zZSBhbnkgb3RoZXIgY2FyLCB0aGV5IHdpbGwgYmUgbGlhYmxlIGZvciBhcHBsaWNhYmxl
+IERhbmlzaCBUYXhlcy4NDXZpaSkJVGhlIHByb21vdGVyIHdpbGwgcGF5IGZvciB0aGUgc2VydmljaW5n
+IGFuZCBpbnN1cmFuY2UgZm9yIHRoZSBmaXJzdCB5ZWFyIG9mIGNhciBvd25lcnNoaXAuIEludm9pY2Vz
+IGZvciBzZXJ2aWNpbmcgYW5kIGluc3VyYW5jZSB3aWxsIG5lZWQgdG8gYmUgc3VwcGxpZWQgdG8gdGhl
+IFByb21vdGVyIGJlZm9yZSBhbnkgbW9uZXkgd2lsbCBiZSBjcmVkaXRlZCBhbmQgdGhlIHByaXplIFdp
+bm5lciBtdXN0IG93biB0aGUgY2FyIGZvciBhIGZ1bGwgMTIgbW9udGhzIGZyb20gZGF0ZSBvZiBkZWxp
+dmVyeS4gVGhlIG1heGltdW0gdGhlIHByb21vdGVyIHdpbGwgcGF5IGZvciBpbnN1cmFuY2UgaXMgwqMx
+MCwwMDAgYW5kIGlmIHRoZSBpbnN1cmFuY2UgcXVvdGUgZXhjZWVkcyB0aGlzIGFtb3VudCB0aGUgd2lu
+bmVyIHdpbGwgaGF2ZSB0byBwYXkgdGhlIGFkZGl0aW9uYWwgZmVlcy4gSW5zdXJhbmNlIHdpbGwgYmUg
+c3ViamVjdCB0byBhIMKjNSwwMDAgZXhjZXNzLCBiZSBmb3Igbm9ybWFsIHJvYWQgdXNlIG9ubHksIGxp
+bWl0ZWQgdG8gMjAsMDAwIG1pbGVzIGFuZCB3aWxsIGJlIHN1YmplY3QgdG8gdGhlIHRlcm1zIGFuZCBj
+b25kaXRpb25zIG9mIHRoZSBpbnN1cmFuY2UgcHJvdmlkZXIuIFNlcnZpY2luZyB3aWxsIGJlIHVuZGVy
+dGFrZW4gYnkgYSBtYWluIGRlYWxlciBhbmQgYmUgc3ViamVjdCB0byDigJxub3JtYWwgcm9hZCB1c2Ug
+b25seeKAnS4gVGhlIG1heGltdW0gdGhlIHByb21vdGVyIHdpbGwgcGF5IGZvciBzZXJ2aWNpbmcgY29z
+dHMgaXMgwqM0LDAwMC4gVGhlc2UgbWF4aW11bSBsaW1pdHMgd2lsbCBhcHBseSBldmVuIGlmIGEgdHdv
+IGNhciBidW5kbGUgaXMgY2hvc2VuLg0NdmlpaSkJU3VwZXJjYXIgQ29tcGV0aXRpb24gQ2FzaCBBbHRl
+cm5hdGl2ZTogU2hvdWxkIGEgU3VwZXJjYXIgQ29tcGV0aXRpb24gKHByZWZpeGVkIOKAmFND4oCZKSBX
+aW5uZXIgbm90IHdpc2ggdG8gdGFrZSBkZWxpdmVyeSBvZiBvbmUgb2YgdGhlIHByaXplcyBkZXRhaWxl
+ZCwgdGhlIFN1cGVyY2FyIENvbXBldGl0aW9uIENhc2ggQWx0ZXJuYXRpdmUgY2FuIGJlIGNsYWltZWQu
+IFRoZSBDYXNoIEFsdGVybmF0aXZlIGlzIMKjMTAwLDAwMCBmb3IgdGhlIHRpY2tldHMgcHVyY2hhc2Vk
+IGluIFN1cGVyY2FyIENhdGVnb3J5IDE7IMKjNTUsMDAwIGZvciB0aWNrZXRzIHB1cmNoYXNlZCBpbiBT
+dXBlcmNhciBDYXRlZ29yeSAyOyBhbmQgwqMzMCwwMDAgZm9yIFRpY2tldHMgcHVyY2hhc2VkIGluIFN1
+cGVyY2FyIENhdGVnb3J5IDMuIFBsZWFzZSBub3RlIHRoYXQgdGhlIGFkZGl0aW9uYWwgbW9uZXkgb2Zm
+ZXJlZCB0b3dhcmRzIGluc3VyYW5jZSBhbmQgc2VydmljaW5nIGNvc3RzIGZvciB0aGUgZmlyc3QgeWVh
+ciBvZiBzdXBlcmNhciBvd25lcnNoaXAgaXMgbm90IGluY2x1ZGVkIHNob3VsZCB0aGUgV2lubmVyIG9w
+dCBmb3IgdGhlIFN1cGVyY2FyIENvbXBldGl0aW9uIENhc2ggQWx0ZXJuYXRpdmUuDQ0</bytes>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -709,7 +649,7 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 					<object class="IBUILabel" id="1034979981">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 3420}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 3258}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="79736216"/>
@@ -734,10 +674,61 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 					<object class="IBUITextView" id="919882567">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5133}, {280, 101}}</string>
+						<string key="NSFrame">{{20, 4971}, {280, 152}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="521700686"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="680777600"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIMultipleTouchEnabled">YES</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIScrollEnabled">NO</bool>
+						<bool key="IBUIEditable">NO</bool>
+						<string key="IBUIText">Runners Up Prizes will be awarded for Supercar Competitions only, in the following manner. The ten Entrants closest to the Judge's position with the exception of the Winner, will each receive £200 worth (face value) of Supercar Competition tickets for Competitions run by the promoter. These may not be used in conjunction with any further offers and must be redeemed within 6 months.</string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
+						</object>
+						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+							<int key="IBUIAutocapitalizationType">2</int>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						</object>
+						<reference key="IBUIFontDescription" ref="927848715"/>
+						<reference key="IBUIFont" ref="301062646"/>
+					</object>
+					<object class="IBUILabel" id="730417667">
+						<reference key="NSNextResponder" ref="282682086"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 4946}, {280, 35}}</string>
+						<reference key="NSSuperview" ref="282682086"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="919882567"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<string key="IBUIText">7. Runners Up Prizes: </string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<reference key="NSCustomColorSpace" ref="797923613"/>
+						</object>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">0</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<reference key="IBUIFontDescription" ref="197619192"/>
+						<reference key="IBUIFont" ref="753970378"/>
+					</object>
+					<object class="IBUITextView" id="916667250">
+						<reference key="NSNextResponder" ref="282682086"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 5155}, {280, 109}}</string>
+						<reference key="NSSuperview" ref="282682086"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="425775864"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="680777600"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -757,20 +748,20 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 						<reference key="IBUIFontDescription" ref="927848715"/>
 						<reference key="IBUIFont" ref="301062646"/>
 					</object>
-					<object class="IBUILabel" id="730417667">
+					<object class="IBUILabel" id="521700686">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5108}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 5131}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="919882567"/>
+						<reference key="NSNextKeyView" ref="916667250"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Winners' Personal Data: </string>
+						<string key="IBUIText">8. Winners' Personal Data: </string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -782,13 +773,13 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 						<reference key="IBUIFontDescription" ref="197619192"/>
 						<reference key="IBUIFont" ref="753970378"/>
 					</object>
-					<object class="IBUITextView" id="916667250">
+					<object class="IBUITextView" id="490951755">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5267}, {280, 254}}</string>
+						<string key="NSFrame">{{20, 5297}, {280, 256}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="425775864"/>
+						<reference key="NSNextKeyView" ref="978674943"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="680777600"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -810,20 +801,20 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 						<reference key="IBUIFontDescription" ref="927848715"/>
 						<reference key="IBUIFont" ref="301062646"/>
 					</object>
-					<object class="IBUILabel" id="521700686">
+					<object class="IBUILabel" id="425775864">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5242}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 5272}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="916667250"/>
+						<reference key="NSNextKeyView" ref="490951755"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Limits of Liability: </string>
+						<string key="IBUIText">9. Limits of Liability:</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -835,13 +826,13 @@ bXVzdCBiZSByZWRlZW1lZCB3aXRoaW4gNiBtb250aHMuDQ</bytes>
 						<reference key="IBUIFontDescription" ref="197619192"/>
 						<reference key="IBUIFont" ref="753970378"/>
 					</object>
-					<object class="IBUITextView" id="490951755">
+					<object class="IBUITextView" id="367510516">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5547}, {280, 349}}</string>
+						<string key="NSFrame">{{20, 5587}, {280, 348}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="978674943"/>
+						<reference key="NSNextKeyView" ref="1024285886"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="680777600"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -879,86 +870,10 @@ ZHVlLg0</bytes>
 						<reference key="IBUIFontDescription" ref="927848715"/>
 						<reference key="IBUIFont" ref="301062646"/>
 					</object>
-					<object class="IBUILabel" id="425775864">
-						<reference key="NSNextResponder" ref="282682086"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5522}, {280, 35}}</string>
-						<reference key="NSSuperview" ref="282682086"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="490951755"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Electronic Communications: </string>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
-							<reference key="NSCustomColorSpace" ref="797923613"/>
-						</object>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="197619192"/>
-						<reference key="IBUIFont" ref="753970378"/>
-					</object>
-					<object class="IBUITextView" id="367510516">
-						<reference key="NSNextResponder" ref="282682086"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5923}, {280, 527}}</string>
-						<reference key="NSSuperview" ref="282682086"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1000744508"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="680777600"/>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIScrollEnabled">NO</bool>
-						<bool key="IBUIEditable">NO</bool>
-						<object class="NSMutableString" key="IBUIText">
-							<bytes key="NS.bytes">QW55IHBlcnNvbmFsIGRhdGEgdGhhdCB5b3Ugc3VwcGx5IHRvIHRoZSBQcm9tb3RlciBvciBhdXRob3Jp
-c2UgdGhlIFByb21vdGVyIHRvIG9idGFpbiBmcm9tIGEgdGhpcmQgcGFydHksIGZvciBleGFtcGxlLCBh
-IGNyZWRpdCBjYXJkIGNvbXBhbnksIHdpbGwgYmUgdXNlZCBieSB0aGUgUHJvbW90ZXIgKGkpIHRvIGFk
-bWluaXN0ZXIgdGhlIENvbXBldGl0aW9uOyBhbmQgKGlpKSAodW5sZXNzIHlvdSB0ZWxsIHVzIHRoYXQg
-eW91IHByZWZlciBub3QgdG8gcmVjZWl2ZSBkaXJlY3QgbWFya2V0aW5nKSB0byBjb250YWN0IHlvdSBh
-Ym91dCBvdGhlciBDb21wZXRpdGlvbnMgb3IgYWJvdXQgb3RoZXIgZ29vZHMgYW5kIHNlcnZpY2VzIHdo
-aWNoIHRoZSBQcm9tb3RlciBjb25zaWRlcnMgbWF5IGJlIG9mIGludGVyZXN0IHRvIHlvdS4NSW4gb3Jk
-ZXIgdG8gcHJvY2VzcywgcmVjb3JkIGFuZCB1c2UgeW91ciBwZXJzb25hbCBkYXRhIHRoZSBQcm9tb3Rl
-ciBtYXkgZGlzY2xvc2UgaXQgdG8gKGkpIGFueSBjcmVkaXQgY2FyZCBjb21wYW55IHdob3NlIG5hbWUg
-eW91IGdpdmU7IChpaSkgYW55IG9yZ2FuaXNhdGlvbiAod2hldGhlciBvciBub3QgY29ubmVjdGVkIHRv
-IHRoZSBQcm9tb3RlcikgZm9yIHRoZSBwdXJwb3NlIG9mIGJyaW5naW5nIHRvIHlvdXIgYXR0ZW50aW9u
-IGdvb2RzIGFuZCBzZXJ2aWNlcyB3aGljaCB0aGUgUHJvbW90ZXIgY29uc2lkZXJzIG1heSBiZSBvZiBp
-bnRlcmVzdCB0byB5b3U7IChpaWkpIGFueSBwZXJzb24gdG8gd2hvbSB0aGUgUHJvbW90ZXIgcHJvcG9z
-ZXMgdG8gdHJhbnNmZXIgYW55IG9mIHRoZSBQcm9tb3RlcidzIHJpZ2h0cyBhbmQvb3IgcmVzcG9uc2li
-aWxpdGllcyB1bmRlciBhbnkgYWdyZWVtZW50IHRoZSBQcm9tb3RlciBtYXkgaGF2ZSB3aXRoIHlvdTsg
-KGl2KSBhbnkgcGVyc29uIHRvIHdob20gdGhlIFByb21vdGVyIHByb3Bvc2VzIHRvIHRyYW5zZmVyIGl0
-cyBidXNpbmVzcyBvciBhbnkgcGFydCBvZiBpdDsgKHYpIGNvbXBseSB3aXRoIGFueSBsZWdhbCBvciBy
-ZWd1bGF0b3J5IHJlcXVpcmVtZW50IG9mIHRoZSBQcm9tb3RlciBpbiBhbnkgY291bnRyeTsgYW5kICh2
-aSkgcHJldmVudCwgZGV0ZWN0IG9yIHByb3NlY3V0ZSBmcmF1ZCBhbmQgb3RoZXIgY3JpbWUuDQ1JbiBv
-cmRlciB0byBwcm9jZXNzLCB1c2UsIHJlY29yZCBhbmQgZGlzY2xvc2UgeW91ciBwZXJzb25hbCBkYXRh
-IHRoZSBQcm9tb3RlciBtYXkgbmVlZCB0byB0cmFuc2ZlciBzdWNoIGluZm9ybWF0aW9uIG91dHNpZGUg
-dGhlIFVuaXRlZCBLaW5nZG9tLCBpbiB3aGljaCBldmVudCB0aGUgUHJvbW90ZXIgaXMgcmVzcG9uc2li
-bGUgZm9yIGVuc3VyaW5nIHRoYXQgeW91ciBwZXJzb25hbCBkYXRhIGNvbnRpbnVlcyB0byBiZSBhZGVx
-dWF0ZWx5IHByb3RlY3RlZCBkdXJpbmcgdGhlIGNvdXJzZSBvZiBzdWNoIHRyYW5zZmVyLg0</bytes>
-						</object>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
-						</object>
-						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
-							<int key="IBUIAutocapitalizationType">2</int>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="927848715"/>
-						<reference key="IBUIFont" ref="301062646"/>
-					</object>
 					<object class="IBUILabel" id="978674943">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 5897}, {280, 35}}</string>
+						<string key="NSFrame">{{20, 5561}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="367510516"/>
@@ -968,7 +883,7 @@ dWF0ZWx5IHByb3RlY3RlZCBkdXJpbmcgdGhlIGNvdXJzZSBvZiBzdWNoIHRyYW5zZmVyLg0</bytes>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Data Protection Notice: </string>
+						<string key="IBUIText">10. Electronic Communications: </string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -983,7 +898,7 @@ dWF0ZWx5IHByb3RlY3RlZCBkdXJpbmcgdGhlIGNvdXJzZSBvZiBzdWNoIHRyYW5zZmVyLg0</bytes>
 					<object class="IBUITextView" id="622925848">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 6473}, {280, 167}}</string>
+						<string key="NSFrame">{{25, 6542}, {280, 167}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -1011,7 +926,7 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 					<object class="IBUILabel" id="1000744508">
 						<reference key="NSNextResponder" ref="282682086"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 6448}, {280, 35}}</string>
+						<string key="NSFrame">{{25, 6517}, {280, 35}}</string>
 						<reference key="NSSuperview" ref="282682086"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="622925848"/>
@@ -1022,6 +937,82 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Promoter: </string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<reference key="NSCustomColorSpace" ref="797923613"/>
+						</object>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">0</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<reference key="IBUIFontDescription" ref="197619192"/>
+						<reference key="IBUIFont" ref="753970378"/>
+					</object>
+					<object class="IBUITextView" id="288042627">
+						<reference key="NSNextResponder" ref="282682086"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 5968}, {280, 541}}</string>
+						<reference key="NSSuperview" ref="282682086"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="1000744508"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="680777600"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIMultipleTouchEnabled">YES</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIScrollEnabled">NO</bool>
+						<bool key="IBUIEditable">NO</bool>
+						<object class="NSMutableString" key="IBUIText">
+							<bytes key="NS.bytes">QW55IHBlcnNvbmFsIGRhdGEgdGhhdCB5b3Ugc3VwcGx5IHRvIHRoZSBQcm9tb3RlciBvciBhdXRob3Jp
+c2UgdGhlIFByb21vdGVyIHRvIG9idGFpbiBmcm9tIGEgdGhpcmQgcGFydHksIGZvciBleGFtcGxlLCBh
+IGNyZWRpdCBjYXJkIGNvbXBhbnksIHdpbGwgYmUgdXNlZCBieSB0aGUgUHJvbW90ZXIgKGkpIHRvIGFk
+bWluaXN0ZXIgdGhlIENvbXBldGl0aW9uOyBhbmQgKGlpKSAodW5sZXNzIHlvdSB0ZWxsIHVzIHRoYXQg
+eW91IHByZWZlciBub3QgdG8gcmVjZWl2ZSBkaXJlY3QgbWFya2V0aW5nKSB0byBjb250YWN0IHlvdSBh
+Ym91dCBvdGhlciBDb21wZXRpdGlvbnMgb3IgYWJvdXQgb3RoZXIgZ29vZHMgYW5kIHNlcnZpY2VzIHdo
+aWNoIHRoZSBQcm9tb3RlciBjb25zaWRlcnMgbWF5IGJlIG9mIGludGVyZXN0IHRvIHlvdS4NDUluIG9y
+ZGVyIHRvIHByb2Nlc3MsIHJlY29yZCBhbmQgdXNlIHlvdXIgcGVyc29uYWwgZGF0YSB0aGUgUHJvbW90
+ZXIgbWF5IGRpc2Nsb3NlIGl0IHRvIChpKSBhbnkgY3JlZGl0IGNhcmQgY29tcGFueSB3aG9zZSBuYW1l
+IHlvdSBnaXZlOyAoaWkpIGFueSBvcmdhbmlzYXRpb24gKHdoZXRoZXIgb3Igbm90IGNvbm5lY3RlZCB0
+byB0aGUgUHJvbW90ZXIpIGZvciB0aGUgcHVycG9zZSBvZiBicmluZ2luZyB0byB5b3VyIGF0dGVudGlv
+biBnb29kcyBhbmQgc2VydmljZXMgd2hpY2ggdGhlIFByb21vdGVyIGNvbnNpZGVycyBtYXkgYmUgb2Yg
+aW50ZXJlc3QgdG8geW91OyAoaWlpKSBhbnkgcGVyc29uIHRvIHdob20gdGhlIFByb21vdGVyIHByb3Bv
+c2VzIHRvIHRyYW5zZmVyIGFueSBvZiB0aGUgUHJvbW90ZXIncyByaWdodHMgYW5kL29yIHJlc3BvbnNp
+YmlsaXRpZXMgdW5kZXIgYW55IGFncmVlbWVudCB0aGUgUHJvbW90ZXIgbWF5IGhhdmUgd2l0aCB5b3U7
+IChpdikgYW55IHBlcnNvbiB0byB3aG9tIHRoZSBQcm9tb3RlciBwcm9wb3NlcyB0byB0cmFuc2ZlciBp
+dHMgYnVzaW5lc3Mgb3IgYW55IHBhcnQgb2YgaXQ7ICh2KSBjb21wbHkgd2l0aCBhbnkgbGVnYWwgb3Ig
+cmVndWxhdG9yeSByZXF1aXJlbWVudCBvZiB0aGUgUHJvbW90ZXIgaW4gYW55IGNvdW50cnk7IGFuZCAo
+dmkpIHByZXZlbnQsIGRldGVjdCBvciBwcm9zZWN1dGUgZnJhdWQgYW5kIG90aGVyIGNyaW1lLg0NSW4g
+b3JkZXIgdG8gcHJvY2VzcywgdXNlLCByZWNvcmQgYW5kIGRpc2Nsb3NlIHlvdXIgcGVyc29uYWwgZGF0
+YSB0aGUgUHJvbW90ZXIgbWF5IG5lZWQgdG8gdHJhbnNmZXIgc3VjaCBpbmZvcm1hdGlvbiBvdXRzaWRl
+IHRoZSBVbml0ZWQgS2luZ2RvbSwgaW4gd2hpY2ggZXZlbnQgdGhlIFByb21vdGVyIGlzIHJlc3BvbnNp
+YmxlIGZvciBlbnN1cmluZyB0aGF0IHlvdXIgcGVyc29uYWwgZGF0YSBjb250aW51ZXMgdG8gYmUgYWRl
+cXVhdGVseSBwcm90ZWN0ZWQgZHVyaW5nIHRoZSBjb3Vyc2Ugb2Ygc3VjaCB0cmFuc2Zlci4NA</bytes>
+						</object>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC40OTgwMzkyMTU4IDAuNDk4MDM5MjE1OCAwLjQ5ODAzOTIxNTgAA</bytes>
+						</object>
+						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+							<int key="IBUIAutocapitalizationType">2</int>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						</object>
+						<reference key="IBUIFontDescription" ref="927848715"/>
+						<reference key="IBUIFont" ref="301062646"/>
+					</object>
+					<object class="IBUILabel" id="1024285886">
+						<reference key="NSNextResponder" ref="282682086"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 5943}, {280, 35}}</string>
+						<reference key="NSSuperview" ref="282682086"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="288042627"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<string key="IBUIText">11. Data Protection Notice: </string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -1126,22 +1117,22 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 							<reference ref="415403455"/>
 							<reference ref="218824706"/>
 							<reference ref="564949003"/>
-							<reference ref="975046906"/>
-							<reference ref="454683200"/>
-							<reference ref="146205548"/>
-							<reference ref="1040661927"/>
-							<reference ref="773275831"/>
-							<reference ref="400968440"/>
 							<reference ref="79736216"/>
 							<reference ref="1034979981"/>
+							<reference ref="975046906"/>
+							<reference ref="454683200"/>
+							<reference ref="1040661927"/>
+							<reference ref="146205548"/>
 							<reference ref="919882567"/>
 							<reference ref="730417667"/>
-							<reference ref="916667250"/>
-							<reference ref="521700686"/>
 							<reference ref="490951755"/>
 							<reference ref="425775864"/>
-							<reference ref="978674943"/>
+							<reference ref="916667250"/>
+							<reference ref="521700686"/>
 							<reference ref="367510516"/>
+							<reference ref="978674943"/>
+							<reference ref="1024285886"/>
+							<reference ref="288042627"/>
 							<reference ref="622925848"/>
 							<reference ref="1000744508"/>
 						</array>
@@ -1200,16 +1191,6 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 					<object class="IBObjectRecord">
 						<int key="objectID">23</int>
 						<reference key="object" ref="1040661927"/>
-						<reference key="parent" ref="282682086"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">27</int>
-						<reference key="object" ref="773275831"/>
-						<reference key="parent" ref="282682086"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">28</int>
-						<reference key="object" ref="400968440"/>
 						<reference key="parent" ref="282682086"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -1272,6 +1253,16 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 						<reference key="object" ref="1000744508"/>
 						<reference key="parent" ref="282682086"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">41</int>
+						<reference key="object" ref="288042627"/>
+						<reference key="parent" ref="282682086"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">42</int>
+						<reference key="object" ref="1024285886"/>
+						<reference key="parent" ref="282682086"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -1290,8 +1281,6 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 				<string key="21.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="22.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="23.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="27.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="28.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="29.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="30.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1305,6 +1294,8 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 				<string key="39.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1313,7 +1304,7 @@ NzkzNiBlbWFpbDogaW5mb0Bib3RiLmNvbSBXZWI6IHd3dy5ib3RiLmNvbQ0</string>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">40</int>
+			<int key="maxID">42</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

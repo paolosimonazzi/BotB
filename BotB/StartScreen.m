@@ -15,11 +15,15 @@
 
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 
+extern BrilliantMenu *brilliantMenu;
+
 @interface StartScreen ()
 
 @end
 
 @implementation StartScreen
+
+@synthesize fakeSplash;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,7 +49,6 @@
     [TCButton addTarget:self action:@selector(TCButtonAction) forControlEvents:UIControlEventTouchUpInside];
     
     self.navigationItem.rightBarButtonItem = optionButtonItem;
-
 }
 - (void)viewWillAppear:(BOOL)animated {
 
@@ -59,15 +62,23 @@
 
     self.navigationItem.titleView = label;  
     [self createRightButton];
-
 }
+- (void) removeSplash {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration: 1];
+    [UIView setAnimationBeginsFromCurrentState:YES]; 
+    fakeSplash.alpha = 0;
+    [UIView commitAnimations];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     self.navigationController.view.alpha = 1;
+    [self performSelector:@selector(removeSplash) withObject:nil afterDelay:2];
 }
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController.view addSubview:fakeSplash];
 
     //videoScreen = [[Video alloc] initWithNibName:@"Video" bundle:nil]; 
     // Do any additional setup after loading the view from its nib.
@@ -80,6 +91,7 @@
 -(IBAction)gameButton:(id)sender {
     //game = [[Game alloc] initWithNibName:@"Game" bundle:nil];
     menu = [[BrilliantMenu alloc] initWithNibName:@"BrilliantMenu" bundle:nil];
+    brilliantMenu = menu;
     //self.navigationController.view.alpha = 0;
     [self.navigationController pushViewController:menu animated:YES];
 }

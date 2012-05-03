@@ -232,7 +232,7 @@
 										<string key="NSFrame">{{10, 263}, {165, 21}}</string>
 										<reference key="NSSuperview" ref="606677231"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="1063829306"/>
+										<reference key="NSNextKeyView" ref="934432692"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<bool key="IBUIClipsSubviews">YES</bool>
@@ -281,7 +281,7 @@
 									<object class="IBUIImageView" id="716950101">
 										<reference key="NSNextResponder" ref="934432692"/>
 										<int key="NSvFlags">301</int>
-										<string key="NSFrame">{{-2, 48}, {320, 100}}</string>
+										<string key="NSFrame">{{0, 48}, {318, 100}}</string>
 										<reference key="NSSuperview" ref="934432692"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="203980079"/>
@@ -690,7 +690,7 @@
 														<string key="NSFrame">{{102, 172}, {170, 21}}</string>
 														<reference key="NSSuperview" ref="601318212"/>
 														<reference key="NSWindow"/>
-														<reference key="NSNextKeyView" ref="606677231"/>
+														<reference key="NSNextKeyView" ref="1063829306"/>
 														<string key="NSReuseIdentifierKey">_NS:9</string>
 														<bool key="IBUIOpaque">NO</bool>
 														<bool key="IBUIClipsSubviews">YES</bool>
@@ -891,7 +891,7 @@ bmQsIG9yIGp1c3QgZHJvcCB0aGUgd2luZG93cyBhbmQgZmluZCBhIHR1bm5lbC4uLg</bytes>
 						<string key="NSFrame">{{0, 50}, {320, 302}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="934432692"/>
+						<reference key="NSNextKeyView" ref="606677231"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>

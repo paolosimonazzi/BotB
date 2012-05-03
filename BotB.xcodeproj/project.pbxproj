@@ -28,6 +28,9 @@
 		B688C0C81549A06100F4019D /* Game.xib in Resources */ = {isa = PBXBuildFile; fileRef = B688C0C61549A06100F4019D /* Game.xib */; };
 		B6914309154AB078008CFA09 /* BrilliantMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B6914307154AB076008CFA09 /* BrilliantMenu.m */; };
 		B691430A154AB078008CFA09 /* BrilliantMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6914308154AB077008CFA09 /* BrilliantMenu.xib */; };
+		B6951E6715527F5800435127 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6951E6615527F5800435127 /* Default.png */; };
+		B6951E6B15528A7500435127 /* tabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B6951E6915528A7500435127 /* tabBarBackground.png */; };
+		B6951E6C15528A7500435127 /* tabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6951E6A15528A7500435127 /* tabBarBackground@2x.png */; };
 		B6958EB615503CCD00A3D1B6 /* buttonBackLandscapeR.png in Resources */ = {isa = PBXBuildFile; fileRef = B6958EB415503CCD00A3D1B6 /* buttonBackLandscapeR.png */; };
 		B6958EB715503CCD00A3D1B6 /* buttonBackLandscapeR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6958EB515503CCD00A3D1B6 /* buttonBackLandscapeR@2x.png */; };
 		B6958EBD15503DDC00A3D1B6 /* buttonBackLandscapeActiveR.png in Resources */ = {isa = PBXBuildFile; fileRef = B6958EB915503DDC00A3D1B6 /* buttonBackLandscapeActiveR.png */; };
@@ -127,6 +130,9 @@
 		B6914306154AB076008CFA09 /* BrilliantMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrilliantMenu.h; sourceTree = "<group>"; };
 		B6914307154AB076008CFA09 /* BrilliantMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrilliantMenu.m; sourceTree = "<group>"; };
 		B6914308154AB077008CFA09 /* BrilliantMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrilliantMenu.xib; sourceTree = "<group>"; };
+		B6951E6615527F5800435127 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6951E6915528A7500435127 /* tabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackground.png; sourceTree = "<group>"; };
+		B6951E6A15528A7500435127 /* tabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBackground@2x.png"; sourceTree = "<group>"; };
 		B6958EB415503CCD00A3D1B6 /* buttonBackLandscapeR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackLandscapeR.png; sourceTree = "<group>"; };
 		B6958EB515503CCD00A3D1B6 /* buttonBackLandscapeR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBackLandscapeR@2x.png"; sourceTree = "<group>"; };
 		B6958EB915503DDC00A3D1B6 /* buttonBackLandscapeActiveR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackLandscapeActiveR.png; sourceTree = "<group>"; };
@@ -210,6 +216,7 @@
 		B65E63C91549518E00BB1C87 = {
 			isa = PBXGroup;
 			children = (
+				B6951E6615527F5800435127 /* Default.png */,
 				B68283DF1549C14D009F0A17 /* Default@2x.png */,
 				B65E63DE1549518E00BB1C87 /* BotB */,
 				B65E63D71549518E00BB1C87 /* Frameworks */,
@@ -289,6 +296,8 @@
 		B6EEAED7155010F8007DB89C /* PNGs */ = {
 			isa = PBXGroup;
 			children = (
+				B6951E6915528A7500435127 /* tabBarBackground.png */,
+				B6951E6A15528A7500435127 /* tabBarBackground@2x.png */,
 				B6958EB915503DDC00A3D1B6 /* buttonBackLandscapeActiveR.png */,
 				B6958EBA15503DDC00A3D1B6 /* buttonBackLandscapeActiveR@2x.png */,
 				B6958EBB15503DDC00A3D1B6 /* navBarLandscapeR.png */,
@@ -480,6 +489,9 @@
 				B6958EBE15503DDC00A3D1B6 /* buttonBackLandscapeActiveR@2x.png in Resources */,
 				B6958EBF15503DDC00A3D1B6 /* navBarLandscapeR.png in Resources */,
 				B6958EC015503DDC00A3D1B6 /* navBarLandscapeR@2x.png in Resources */,
+				B6951E6715527F5800435127 /* Default.png in Resources */,
+				B6951E6B15528A7500435127 /* tabBarBackground.png in Resources */,
+				B6951E6C15528A7500435127 /* tabBarBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

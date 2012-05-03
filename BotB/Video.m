@@ -88,9 +88,7 @@
     youtubeVideo.delegate = self;
     // Do any additional setup after loading the view from its nib.
     UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
-    
-    self.navigationItem.titleView = label;  
-
+    self.navigationItem.titleView = label;
 }
 
 - (void)viewDidUnload

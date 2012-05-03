@@ -115,11 +115,19 @@
     [self moveMenuTab:currentTab];
     NSLog(@"butt:%d", viewButton.tag);
 }
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+
+- (void)viewDidAppear:(BOOL)animated {
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    self.navigationController.view.alpha = 1;
+    
+    //self.view.frame = CGRectMake(0, 50, 320, 400);
 }
-*/
+- (void)viewWillAppear:(BOOL)animated {
+    self.navigationController.navigationBar.hidden = NO;
+    
+}
+
+
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
 

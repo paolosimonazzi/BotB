@@ -35,7 +35,7 @@
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
     
     NSString *str = [url absoluteString];
-    [game leaveTheGameWithoutMessage:NO];
+    [game leaveTheGameWithoutMessage:YES];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
