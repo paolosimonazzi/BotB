@@ -43,8 +43,9 @@ int appStatus;
 }
 - (void) animationFinished {
     //[self.navigationController popViewControllerAnimated:YES];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];
-    
+
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];  
+
     [self.navigationController popToViewController:brilliantMenu animated:YES];
 }
 - (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -59,8 +60,9 @@ int appStatus;
 }
 - (void) leaveTheGameWithoutMessage:(BOOL)val {
 
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];  
-
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];  
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];  
+    
     if (val) {
         //[self startGame:numT];
         [self.navigationController popToRootViewControllerAnimated:NO];
@@ -96,6 +98,10 @@ int appStatus;
     
 }
 -(void)leavingTheGame {
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];  
+
+
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 0.5];
     [UIView setAnimationBeginsFromCurrentState:YES];
@@ -126,7 +132,9 @@ int appStatus;
 //- (void)viewDidAppear:(BOOL)animated {
 - (void)viewWillAppear:(BOOL)animated {
 
-    [[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];  
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];  
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];  
+
     [self startGame:self.numT];
 
     webGame.frame = CGRectMake(0, 0, 460, 288);

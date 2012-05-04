@@ -11,8 +11,7 @@
 
 @implementation YouTubeView
 
-- (YouTubeView *)initWithStringAsURL:(NSString *)urlString frame:(CGRect)frame;
-{
+- (YouTubeView *)initWithStringAsURL:(NSString *)urlString frame:(CGRect)frame {
     if (self = [super init]) 
     {
         // Create webview with requested frame size
@@ -31,11 +30,9 @@
         // Load the html into the webview
         [self loadHTMLString:html baseURL:nil];
         self.delegate = self;
-    }
-    
-    return self;  
+    }    
+    return self;
 }
-
 
 @end
 
@@ -65,8 +62,7 @@
     return YES;
 }
 */
-- (BOOL) pingServer
-{
+- (BOOL) pingServer {
     NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
     NSURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     NSHTTPURLResponse *response = nil;
@@ -74,14 +70,18 @@
                           returningResponse:&response error:NULL];
     return (response != nil);
 }
+
 -(void) startVideo {
 }
+
 -(void)back {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
 }
+
 - (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     [self.navigationController popViewControllerAnimated:YES];    
 }
@@ -95,8 +95,6 @@
                                             delegate:self
                                    cancelButtonTitle:nil
                                    otherButtonTitles:@"Ok", nil];
-        
-
         [message show];
     }    
 }

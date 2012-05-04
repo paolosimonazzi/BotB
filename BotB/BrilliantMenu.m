@@ -96,7 +96,6 @@
             break;
     }
     CGRect rect = slidingView.frame;
-    
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 0.2];
     [UIView setAnimationBeginsFromCurrentState:YES];
@@ -119,11 +118,14 @@
 - (void)viewDidAppear:(BOOL)animated {
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.navigationController.view.alpha = 1;
+    //[self setWantsFullScreenLayout:NO];
+
     
     //self.view.frame = CGRectMake(0, 50, 320, 400);
 }
 - (void)viewWillAppear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
+    self.navigationController.navigationBar.frame = CGRectMake(0, 20, 320, 44);
     
 }
 

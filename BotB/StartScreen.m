@@ -53,7 +53,9 @@ extern BrilliantMenu *brilliantMenu;
 - (void)viewWillAppear:(BOOL)animated {
 
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];  
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];  
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];  
+
     self.navigationController.navigationBar.hidden = NO;
     //self.navigationController.
     //topItem.title = @"title text";
