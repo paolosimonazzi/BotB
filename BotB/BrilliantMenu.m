@@ -85,11 +85,11 @@
             titleLabel.text = @"            Prize";
             break;
         case 1:
-            xOffset = 106;
+            xOffset = 107;
             titleLabel.text = @"     Specifications";
             break;
         case 2:
-            xOffset = 213;
+            xOffset = 214;
             titleLabel.text = @"         Reviews";
             break;            
         default:

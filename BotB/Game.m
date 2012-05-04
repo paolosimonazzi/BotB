@@ -43,10 +43,9 @@ int appStatus;
 }
 - (void) animationFinished {
     //[self.navigationController popViewControllerAnimated:YES];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];
     
     [self.navigationController popToViewController:brilliantMenu animated:YES];
-
 }
 - (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     // the user clicked one of the OK/Cancel buttons
