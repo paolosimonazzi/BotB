@@ -51,7 +51,7 @@ int appStatus;
     // the user clicked one of the OK/Cancel buttons
     if (buttonIndex == 0) {
         NSLog(@"cancel");
-        [self startGame:numT];  
+        //[self startGame:numT];  
     } else {
         NSLog(@"ok");
         [self leavingTheGame];

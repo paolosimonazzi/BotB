@@ -65,6 +65,15 @@
     return YES;
 }
 */
+- (BOOL) pingServer
+{
+    NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
+    NSURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    NSHTTPURLResponse *response = nil;
+    [NSURLConnection sendSynchronousRequest:request
+                          returningResponse:&response error:NULL];
+    return (response != nil);
+}
 -(void) startVideo {
 }
 -(void)back {
@@ -73,6 +82,25 @@
 - (void)viewWillAppear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
 }
+- (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    [self.navigationController popViewControllerAnimated:YES];    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    if ([self pingServer]) {
+        int ap = 0;
+    } else {
+        UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Best Of The Best"
+                                             message:@"You need an internet connection to play this video. Please check you settings and try again."
+                                            delegate:self
+                                   cancelButtonTitle:nil
+                                   otherButtonTitles:@"Ok", nil];
+        
+
+        [message show];
+    }    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -85,7 +113,8 @@
 
     YouTubeView *youtubeVideo = [[YouTubeView alloc] initWithStringAsURL:@"http://www.youtube.com/v/3frgULXnE7M?fs=1&amp:hl=en_GB" frame:CGRectMake(-2, -2, 324, 420)];
     [self.view addSubview:youtubeVideo];
-    youtubeVideo.delegate = self;
+    
+
     // Do any additional setup after loading the view from its nib.
     UIImageView *label = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
     self.navigationItem.titleView = label;

@@ -32,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    scrollableView.contentSize = CGSizeMake(320, 6700);
+    scrollableView.contentSize = CGSizeMake(320, 6900);
     scrollableView.showsVerticalScrollIndicator   = YES;
     scrollableView.showsHorizontalScrollIndicator = NO;
 
