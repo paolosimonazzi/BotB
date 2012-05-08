@@ -22,7 +22,7 @@
     }
     return self;
 }
--(void)back {
+-(void) back {
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)viewDidLoad {
@@ -60,11 +60,11 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
 - (void) animationFinished {
     if (justTab) {
         return;
     }
-
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 0.4];
     [UIView setAnimationBeginsFromCurrentState:YES];
@@ -74,8 +74,8 @@
     CGRect scrollRect = CGRectMake(currentTab*320, 50, 320, 302);
     [scrollablePages scrollRectToVisible:scrollRect animated:YES];
     [UIView commitAnimations];
-
 }
+
 - (void) moveMenuTab:(int)where {
     
     float xOffset = 0;
@@ -104,7 +104,6 @@
     
     slidingView.frame = CGRectMake(xOffset, rect.origin.y, rect.size.width, rect.size.height);
     [UIView commitAnimations];
-
 }
 
 - (IBAction)menuAction:(id)sender {
@@ -119,17 +118,13 @@
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.navigationController.view.alpha = 1;
     //[self setWantsFullScreenLayout:NO];
-
-    
     //self.view.frame = CGRectMake(0, 50, 320, 400);
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
     self.navigationController.navigationBar.frame = CGRectMake(0, 20, 320, 44);
-    
 }
-
-
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
 

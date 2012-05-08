@@ -219,6 +219,11 @@ int appStatus;
     return YES;
     //NSLog(@"request: %@", [[request fURL] absoluteString]);
 }
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    int app=0;
+}
+
 @end
 
 /*
