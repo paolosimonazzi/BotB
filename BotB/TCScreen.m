@@ -25,14 +25,13 @@
     }
     return self;
 }
+
 -(void)back {
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    scrollableView.contentSize = CGSizeMake(320, 6900);
+    scrollableView.contentSize = CGSizeMake(320, 6916);
     scrollableView.showsVerticalScrollIndicator   = YES;
     scrollableView.showsHorizontalScrollIndicator = NO;
 
@@ -52,8 +51,7 @@
     [self.scrollableView addSubview:TCStuff];
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
