@@ -98,9 +98,6 @@ int appStatus;
     
 }
 -(void)leavingTheGame {
-    //[[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
-    //[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];  
-
 
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 0.5];
@@ -122,14 +119,14 @@ int appStatus;
      */
 }
 - (void)viewDidAppear:(BOOL)animated {
-//- (void)viewWillAppear:(BOOL)animated {
+
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 1];
     [UIView setAnimationBeginsFromCurrentState:YES]; 
     self.navigationController.view.alpha = 1;
     [UIView commitAnimations];
 }
-//- (void)viewDidAppear:(BOOL)animated {
+
 - (void)viewWillAppear:(BOOL)animated {
 
     //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];  

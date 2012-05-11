@@ -25,8 +25,7 @@
     }
     return self;
 }
-
--(void)back {
+- (void)back {
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)viewDidLoad {
@@ -50,13 +49,11 @@
     self.navigationItem.titleView = labelTitle;  
     [self.scrollableView addSubview:TCStuff];
 }
-
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);

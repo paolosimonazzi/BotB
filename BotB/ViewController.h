@@ -16,7 +16,7 @@
 @class Video, StartScreen;
 @interface ViewController : UINavigationController {
 
-    Video *videoScreen;
+    Video       *videoScreen;
     StartScreen *startScreen;
 }
 

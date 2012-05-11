@@ -36,7 +36,6 @@
     self.navigationItem.leftBarButtonItem = barButton;
 
     // Do any additional setup after loading the view from its nib.
-    
     scrollablePages.contentSize                     = CGSizeMake(960, 302);
     scrollablePages.showsVerticalScrollIndicator    = NO;
     scrollablePages.showsHorizontalScrollIndicator  = NO;
@@ -49,19 +48,16 @@
     
     self.navigationItem.titleView = titleLabel;
 }
-
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
 - (void) animationFinished {
+    
     if (justTab) {
         return;
     }
@@ -75,7 +71,6 @@
     [scrollablePages scrollRectToVisible:scrollRect animated:YES];
     [UIView commitAnimations];
 }
-
 - (void) moveMenuTab:(int)where {
     
     float xOffset = 0;
@@ -105,7 +100,6 @@
     slidingView.frame = CGRectMake(xOffset, rect.origin.y, rect.size.width, rect.size.height);
     [UIView commitAnimations];
 }
-
 - (IBAction)menuAction:(id)sender {
     justTab = NO;
     UIView *viewButton = (UIView *)sender;
@@ -113,26 +107,22 @@
     [self moveMenuTab:currentTab];
     NSLog(@"butt:%d", viewButton.tag);
 }
-
 - (void)viewDidAppear:(BOOL)animated {
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.navigationController.view.alpha = 1;
     //[self setWantsFullScreenLayout:NO];
     //self.view.frame = CGRectMake(0, 50, 320, 400);
 }
-
 - (void)viewWillAppear:(BOOL)animated {
     self.navigationController.navigationBar.hidden = NO;
     self.navigationController.navigationBar.frame = CGRectMake(0, 20, 320, 44);
 }
-
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
 
     justTab = YES;
     int menuTab = scrollablePages.contentOffset.x/320;
     [self moveMenuTab:menuTab];
 }
-
 - (IBAction)ticketPrices:(id)sender {
     TicketPurchasing *ticketPurchasing = [[TicketPurchasing alloc] initWithNibName:@"TicketPurchasing" bundle:nil];
     [self.navigationController pushViewController:ticketPurchasing animated:YES];
